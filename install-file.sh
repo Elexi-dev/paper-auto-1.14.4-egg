@@ -45,7 +45,8 @@ fi
 curl -o ${SERVER_JARFILE} ${DOWNLOAD_URL}
 
 echo -e "Downloading Server files/plugins from Elexi.dev"
-git clone https://github.com/Elexi-dev/paper-auto-1.14.4.git .
+git clone https://github.com/Elexi-dev/paper-auto-1.14.4.git
+mv paper-auto-1.14.4/ ../
 
 echo -e "Changing configs based off of user variable input"
 cd /mnt/server/plugins/DiscordSRV
