@@ -2,7 +2,7 @@
 # Paper Installation Script
 #
 # Server Files: /mnt/server
-apk add --no-cache --update curl jq
+apk add --no-cache --update curl jq git
 
 if [ -n "${DL_PATH}" ]; then
     echo -e "using supplied download url"
