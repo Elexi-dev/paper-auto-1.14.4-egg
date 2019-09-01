@@ -1,6 +1,5 @@
 #!/bin/ash
 # Paper Installation Script
-#
 # Server Files: /mnt/server
 apk add --no-cache --update curl jq git
 
